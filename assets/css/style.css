@@ -1,0 +1,75 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* END: RESET CSS */
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#text {
+    margin-top: 150px;
+    max-width: 600px;
+    text-align: center;
+}
+
+#text .header p:first-child {
+    font-size: 33px;
+    color: #58d0d4;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+
+#text .header p:last-child {
+    font-size: 64px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#text .content {
+    margin-top: 16px;
+    font-size: 17px;
+    line-height: 1.4;
+    padding: 0 16px;
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 64px;
+    padding: 0 100px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#features .feature-item {
+    width: 25%;
+}
+
+#features .feature-item img {
+    margin-bottom: 16px;
+}
+
+#features .feature-header {
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#features .feature-content {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 32px;
+}
